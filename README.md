@@ -50,5 +50,5 @@ Be sure to check out the demo page below for a complete example using the defaul
 
 ## Author
 **Andy Cormack** *(Front-End Developer)*<br>
-**Twitter:** @groundxaero<br>
+**Twitter:** [@groundxaero](https://www.twitter.com/groundxaero)<br>
 **Email:** incurse@gmail.com
