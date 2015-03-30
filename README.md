@@ -34,10 +34,12 @@ Turns into this:
 
 * At the bottom of your page, before the closing body tag add in this small script
 ```javascript
+<script>
 $('.easy-sidebar-toggle').click(function(e) {
 	e.preventDefault();
 	$('body').toggleClass('toggled');
 });
+</script>
 ```
 And you should be all set!
 
