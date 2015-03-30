@@ -9,10 +9,10 @@ Does **NOT** affect other navbars so you can use them separately on the same pag
 
 Any issues don't hesitate to let me know
 
-# Setup
-* Assign the id ```easy-sidebar-active``` to the html tag.
+# Usage
+* Assign the class ```easy-sidebar-active``` to the html tag.
 ```html
-<html id="easy-sidebar-active">
+<html class="easy-sidebar-active">
 ```
 * When creating a bootstrap navbar, simply add the class ```easy-sidebar``` to the end.
 ```html
@@ -29,3 +29,28 @@ Any issues don't hesitate to let me know
 </button>
 ```
 Turns into this: 
+
+![Navbar Toggle Button](http://groundxaero.github.io/bootstrap-easy-sidebar/readme-images/navbar-button.jpg)
+
+* At the bottom of your page, before the closing body tag add in this small script
+```javascript
+<script>
+$('.easy-sidebar-toggle').click(function(e) {
+	e.preventDefault();
+	$('body').toggleClass('toggled');
+});
+</script>
+```
+And you should be all set!
+
+Be sure to check out the demo page below for a complete example using the default Bootstrap CSS and inverted navbar style for the sidebar itself to contrast the top navbar and the rest of the page.
+
+## Demo
+[Check out the demo of it in action](http://groundxaero.github.io/bootstrap-easy-sidebar/)
+
+![Sidebar](http://groundxaero.github.io/bootstrap-easy-sidebar/readme-images/sidebar.jpg)
+
+## Author
+**Andy Cormack** *(Front-End Developer)*<br>
+**Twitter:** [@groundxaero](https://www.twitter.com/groundxaero)<br>
+**Email:** incurse@gmail.com
