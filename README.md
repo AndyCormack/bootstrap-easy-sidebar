@@ -14,12 +14,6 @@ Any issues don't hesitate to let me know
 ```html
 <link rel="stylesheet" href="easy-sidebar.css">
 ```
-* Optional legacy support css for older IE versions
-```html
-<!--[if lt IE 9]>
-	<link rel="stylesheet" href="legacy-easy-sidebar.css">
-<![endif]-->
-```
 * Assign the class ```easy-sidebar-active``` to the html tag.
 ```html
 <html class="easy-sidebar-active">
@@ -61,7 +55,12 @@ Be sure to check out the demo page below for a complete example using the defaul
 ![Sidebar](http://groundxaero.github.io/bootstrap-easy-sidebar/readme-images/sidebar.jpg)
 
 ## IE Support
-Should work straight out of the box for 9 or 10 and up, for anything older do the following
+Should work straight out of the box for 9 or 10 and up, for anything older just add the following below the normal stylesheet
+```html
+<!--[if lt IE 9]>
+	<link rel="stylesheet" href="legacy-easy-sidebar.css">
+<![endif]-->
+```
 
 ## Author
 **Andy Cormack** *(Front-End Developer)*<br>
