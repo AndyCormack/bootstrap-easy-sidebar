@@ -10,8 +10,14 @@ Does **NOT** affect other navbars so you can use them separately on the same pag
 Any issues don't hesitate to let me know
 
 # Setup
-* Assign the id ```easy-sidebar-active``` to the html tag. ```<html id="easy-sidebar-active">```
-* When creating a bootstrap navbar, simply add the class ```easy-sidebar``` to the end. ```<nav class="navbar navbar-inverse easy-sidebar">```
+* Assign the id ```easy-sidebar-active``` to the html tag.
+```html
+<html id="easy-sidebar-active">
+```
+* When creating a bootstrap navbar, simply add the class ```easy-sidebar``` to the end.
+```html
+<nav class="navbar navbar-inverse easy-sidebar">
+```
 * Place the class ```easy-sidebar-toggle``` on any elements you wish to open/close the sidebar with.
 * You can either not include the navbar-toggle at all or convert it to the close button for the menu, it will automatically convert the menu bar icon spans into an X eg.
 ```html
