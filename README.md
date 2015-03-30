@@ -30,6 +30,9 @@ Any issues don't hesitate to let me know
 ```
 Turns into this: 
 
+![Navbar Toggle Button](http://groundxaero.github.io/bootstrap-easy-sidebar/readme-images/navbar-button.jpg)
 
 ## Demo
 [Check out the demo of it in action alongside a normal navbar](http://groundxaero.github.io/bootstrap-easy-sidebar/)
+
+![Sidebar](http://groundxaero.github.io/bootstrap-easy-sidebar/readme-images/sidebar.jpg)
