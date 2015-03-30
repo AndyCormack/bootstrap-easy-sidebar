@@ -5,6 +5,21 @@ This is an attempt at full integrating a sidebar with Bootstrap by inheriting al
 
 Should support any kind of bootstrap theme you throw at it, I've tested a few free ones from around the web to check compatibility.
 
+Does **NOT** affect other navbars so you can use them separately on the same page.
+
 Any issues don't hesitate to let me know
 
 # Setup
+* Assign the id ```easy-sidebar-active``` to the html tag. ```<html id="easy-sidebar-active">```
+* When creating a bootstrap navbar, simply add the class ```easy-sidebar``` to the end. ```<nav class="navbar navbar-inverse easy-sidebar">```
+* Place the class ```easy-sidebar-toggle``` on any elements you wish to open/close the sidebar with.
+* You can either not include the navbar-toggle at all or convert it to the close button for the menu, it will automatically convert the menu bar icon spans into an X eg.
+```html
+<button type="button" class="navbar-toggle easy-sidebar-toggle" aria-expanded="false">
+  <span class="sr-only">Toggle navigation</span>
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+</button>
+```
+Turns into this: 
