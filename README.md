@@ -29,3 +29,7 @@ Any issues don't hesitate to let me know
 </button>
 ```
 Turns into this: 
+
+
+## Demo
+[Check out the demo of it in action alongside a normal navbar](http://groundxaero.github.io/bootstrap-easy-sidebar/)
