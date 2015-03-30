@@ -9,6 +9,14 @@ Does **NOT** affect other navbars so you can use them separately on the same pag
 
 Any issues don't hesitate to let me know
 
+# Installation
+If you use bower:
+```
+bower install bootstrap-easy-sidebar
+```
+
+Or you can just download the zip from here.
+
 # Usage
 * Add the css to your head
 ```html
