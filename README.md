@@ -9,7 +9,19 @@ Does **NOT** affect other navbars so you can use them separately on the same pag
 
 Any issues don't hesitate to let me know
 
+# Installation
+If you use bower:
+```
+bower install bootstrap-easy-sidebar
+```
+
+Or you can just download the zip from here.
+
 # Usage
+* Add the css to your head
+```html
+<link rel="stylesheet" href="easy-sidebar.css">
+```
 * Assign the class ```easy-sidebar-active``` to the html tag.
 ```html
 <html class="easy-sidebar-active">
@@ -49,6 +61,15 @@ Be sure to check out the demo page below for a complete example using the defaul
 [Check out the demo of it in action](http://groundxaero.github.io/bootstrap-easy-sidebar/)
 
 ![Sidebar](http://groundxaero.github.io/bootstrap-easy-sidebar/readme-images/sidebar.jpg)
+
+## IE Support
+Should work straight out of the box for 9 or 10 and up, for anything older just add the following below the normal stylesheet
+```html
+<!--[if lt IE 9]>
+	<link rel="stylesheet" href="legacy-easy-sidebar.css">
+<![endif]-->
+```
+If there's issues with 9 too, just change ```if lt IE 9``` to ```if lte IE 9```.
 
 ## Author
 **Andy Cormack** *(Front-End Developer)*<br>
