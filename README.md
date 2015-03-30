@@ -10,9 +10,9 @@ Does **NOT** affect other navbars so you can use them separately on the same pag
 Any issues don't hesitate to let me know
 
 # Usage
-* Assign the id ```easy-sidebar-active``` to the html tag.
+* Assign the class ```easy-sidebar-active``` to the html tag.
 ```html
-<html id="easy-sidebar-active">
+<html class="easy-sidebar-active">
 ```
 * When creating a bootstrap navbar, simply add the class ```easy-sidebar``` to the end.
 ```html
