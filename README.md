@@ -61,6 +61,7 @@ Should work straight out of the box for 9 or 10 and up, for anything older just 
 	<link rel="stylesheet" href="legacy-easy-sidebar.css">
 <![endif]-->
 ```
+If there's issues with 9 too, just change ```if lt IE 9``` to ```if lte IE 9```.
 
 ## Author
 **Andy Cormack** *(Front-End Developer)*<br>
