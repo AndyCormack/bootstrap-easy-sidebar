@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap-easy-sidebar",
+  "version": "1.0.0",
+  "homepage": "https://github.com/GroundXaero/bootstrap-easy-sidebar",
+  "authors": [
+    "GroundXaero <incurse@gmail.com>"
+  ],
+  "description": "A sidebar for bootstrap designed around theme integration and flexibility.",
+  "main": "easy-sidebar.css",
+  "keywords": [
+    "bootstrap",
+    "sidebar",
+    "integrated",
+    "themeable"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
