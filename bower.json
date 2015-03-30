@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-easy-sidebar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/GroundXaero/bootstrap-easy-sidebar",
   "authors": [
     "GroundXaero <incurse@gmail.com>"
@@ -19,6 +19,15 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "source",
+    "spec",
+    ".bowerrc",
+    ".gitignore",
+    ".jshintignore",
+    ".jshintrc",
+    "bower.json",
+    "gruntfile.js",
+    "package.json"
   ]
 }
