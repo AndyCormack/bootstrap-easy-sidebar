@@ -1,4 +1,4 @@
-html#easy-sidebar-active {
+html.easy-sidebar-active {
 	height: 100%;
 	overflow-x: hidden;
 	overflow-y: scroll;
