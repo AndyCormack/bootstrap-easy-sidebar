@@ -1,0 +1,3 @@
+[submodule "detect_swipe"]
+	path = detect_swipe
+	url = https://github.com/marcandre/detect_swipe.git

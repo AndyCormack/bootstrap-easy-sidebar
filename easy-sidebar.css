@@ -1,29 +1,25 @@
 html.easy-sidebar-active {
-	height: 100%;
-	overflow-x: hidden;
-	overflow-y: scroll;
-	margin: 0;
-	padding: 0;
-}
-
-body {
-	transition: 0.2s ease;
-	min-height: 100%;
-	margin: 0;
-	padding: 0;
-}
-body.toggled {
-	-webkit-transform: translateX(250px);
-	transform: translateX(250px);
-}
+		height: 100%;
+		overflow-x: hidden;
+		overflow-y: scroll;
+		margin: 0;
+		padding: 0;
+	}
 
 .navbar.easy-sidebar {
+	transition: 0.2s ease;
 	position: absolute;
 	width: 250px;
 	top: 0;
 	left: -250px;
 	min-height: 100%;
 	border-radius: 0;
+	z-index: 9999;
+}
+
+.navbar.easy-sidebar.toggled {
+	-webkit-transform: translateX(250px);
+	transform: translateX(250px);
 }
 
 .easy-sidebar .btn {
@@ -68,17 +64,7 @@ body.toggled {
 .navbar.easy-sidebar .nav.navbar-nav>li>a {
 	padding: 10px 15px;
 }
-/*
-.navbar.easy-sidebar .navbar-nav .open .dropdown-menu {
-  position: static;
-  float: none;
-  width: auto;
-  margin-top: 0;
-  background-color: transparent;
-  border: 0;
-  box-shadow: none;
-}
-*/
+
 .navbar.easy-sidebar .navbar-nav .open .dropdown-menu .divider {
   box-shadow: 0 1px 0 rgba(255,255,255, 0.1);
 }
@@ -100,4 +86,27 @@ body.toggled {
 .navbar.easy-sidebar .navbar-form .form-group .form-control {
 	display: block;
 	width: 100%;
+}
+
+@media (min-width:  768px) {
+
+	body {
+		transition: 0.2s ease;
+		min-height: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	body.toggled {
+		-webkit-transform: translateX(250px);
+		transform: translateX(250px);
+	}
+	.navbar.easy-sidebar {
+		transition: 0.2s ease;
+		position: absolute;
+		width: 250px;
+		top: 0;
+		left: -250px;
+		min-height: 100%;
+		border-radius: 0;
+	}
 }
