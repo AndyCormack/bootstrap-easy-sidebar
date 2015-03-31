@@ -59,13 +59,11 @@ $('.easy-sidebar-toggle').click(function(e) {
 	$('body').toggleClass('toggled');
 	$('.navbar.easy-sidebar').removeClass('toggled');
 });
-
-$('body').on('swiperight', function(){
-	$('.navbar.easy-sidebar').addClass('toggled');
+$('html').on('swiperight', function(){
+	$('body').addClass('toggled');
 });
-
-$('body').on('swipeleft', function(){
-	$('.navbar.easy-sidebar').removeClass('toggled');
+$('html').on('swipeleft', function(){
+	$('body').removeClass('toggled');
 });
 </script>
 ```
