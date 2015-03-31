@@ -17,6 +17,8 @@ bower install bootstrap-easy-sidebar
 
 Or you can just download the zip from here.
 
+**Note:** You will have to download the zip for detect_swipe separately if you're doing it manually because GitHub doesn't include dependencies in the downloadable zip files.
+
 # Usage
 * Add the css to your head
 ```html
