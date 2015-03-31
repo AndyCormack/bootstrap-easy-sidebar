@@ -44,7 +44,7 @@ Turns into this:
 
 ![Navbar Toggle Button](http://groundxaero.github.io/bootstrap-easy-sidebar/readme-images/navbar-button.jpg)
 
-Include the swipe_detect javascript *after* jquery and bootstrap
+* Include the swipe_detect javascript *after* jquery and bootstrap
 
 ````Javascript
 <script src="detect_swipe/jquery.detect_swipe.js"></script>  
