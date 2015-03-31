@@ -36,12 +36,27 @@ Turns into this:
 
 ![Navbar Toggle Button](http://groundxaero.github.io/bootstrap-easy-sidebar/readme-images/navbar-button.jpg)
 
+Include the swipe_detect javascript *after* jquery and bootstrap
+````
+<script src="detect_swipe/jquery.detect_swipe.js"></script>  
+````
+
 * At the bottom of your page, before the closing body tag add in this small script
+
 ```javascript
 <script>
 $('.easy-sidebar-toggle').click(function(e) {
 	e.preventDefault();
 	$('body').toggleClass('toggled');
+	$('.navbar.easy-sidebar').removeClass('toggled');
+});
+
+$('body').on('swiperight', function(){
+	$('.navbar.easy-sidebar').addClass('toggled');
+});
+
+$('body').on('swipeleft', function(){
+	$('.navbar.easy-sidebar').removeClass('toggled');
 });
 </script>
 ```
