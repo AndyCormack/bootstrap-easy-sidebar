@@ -125,11 +125,19 @@
 
 	<script src="./js/jquery.min.js"></script>
 	<script src="./bootstrap/js/bootstrap.min.js"></script>
+	<script src="./detect_swipe/jquery.detect_swipe.js"></script>
 	<!-- Menu Toggle Script -->
 	<script>
 		$('.easy-sidebar-toggle').click(function(e) {
 			e.preventDefault();
 			$('body').toggleClass('toggled');
+			$('.navbar.easy-sidebar').removeClass('toggled');
+		});
+		$('html').on('swiperight', function(){
+			$('body').addClass('toggled');
+		});
+		$('html').on('swipeleft', function(){
+			$('body').removeClass('toggled');
 		});
 	</script>
 </body>
