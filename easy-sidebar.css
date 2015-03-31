@@ -99,3 +99,9 @@ body.toggled {
 	display: block;
 	width: 100%;
 }
+
+@media (max-width:  768px) {
+	body.toggled {
+		position: fixed;
+	}
+}
