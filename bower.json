@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-easy-sidebar",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "homepage": "https://github.com/GroundXaero/bootstrap-easy-sidebar",
   "authors": [
     "GroundXaero <incurse@gmail.com>"
@@ -13,9 +13,13 @@
     "integrated",
     "themeable"
   ],
+  "dependencies": {
+    "detect_swipe": "https://github.com/marcandre/detect_swipe.git"
+  },
   "license": "MIT",
   "ignore": [
     "**/.*",
+    "detect_swipe",
     "node_modules",
     "bower_components",
     "test",
