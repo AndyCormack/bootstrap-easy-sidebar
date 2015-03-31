@@ -1,10 +1,21 @@
 html.easy-sidebar-active {
-		height: 100%;
-		overflow-x: hidden;
-		overflow-y: scroll;
-		margin: 0;
-		padding: 0;
-	}
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	transition: 0.2s ease;
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+}
+body.toggled {
+	-webkit-transform: translateX(250px);
+	transform: translateX(250px);
+}
 
 .navbar.easy-sidebar {
 	transition: 0.2s ease;
@@ -14,6 +25,7 @@ html.easy-sidebar-active {
 	left: -250px;
 	min-height: 100%;
 	border-radius: 0;
+	margin: 0;
 	z-index: 9999;
 }
 
@@ -23,7 +35,7 @@ html.easy-sidebar-active {
 }
 
 .easy-sidebar .btn {
-  width: 100%;
+	width: 100%;
 }
 
 .navbar.easy-sidebar .navbar-header {
@@ -40,18 +52,18 @@ html.easy-sidebar-active {
 }
 .navbar.easy-sidebar .navbar-toggle span.icon-bar:nth-child(2) {
 	-webkit-transform-origin: 0 50%;
-	        transform-origin: 0 50%;
+	transform-origin: 0 50%;
 	-webkit-transform: translate(2px, -5px) rotate(45deg);
-	        transform: translate(2px, -5px) rotate(45deg)
+	transform: translate(2px, -5px) rotate(45deg)
 }
 .navbar.easy-sidebar .navbar-toggle span.icon-bar:nth-child(3) {
 	display: none;
 }
 .navbar.easy-sidebar .navbar-toggle span.icon-bar:nth-child(4) {
 	-webkit-transform-origin: 0 50%;
-	        transform-origin: 0 50%;
+	transform-origin: 0 50%;
 	-webkit-transform: translate(2px, 4.5px) rotate(-45deg);
-	        transform: translate(2px, 4.5px) rotate(-45deg);
+	transform: translate(2px, 4.5px) rotate(-45deg);
 }
 
 .navbar.easy-sidebar .nav.navbar-nav {
@@ -66,7 +78,7 @@ html.easy-sidebar-active {
 }
 
 .navbar.easy-sidebar .navbar-nav .open .dropdown-menu .divider {
-  box-shadow: 0 1px 0 rgba(255,255,255, 0.1);
+	box-shadow: 0 1px 0 rgba(255,255,255, 0.1);
 }
 
 
@@ -86,27 +98,4 @@ html.easy-sidebar-active {
 .navbar.easy-sidebar .navbar-form .form-group .form-control {
 	display: block;
 	width: 100%;
-}
-
-@media (min-width:  768px) {
-
-	body {
-		transition: 0.2s ease;
-		min-height: 100%;
-		margin: 0;
-		padding: 0;
-	}
-	body.toggled {
-		-webkit-transform: translateX(250px);
-		transform: translateX(250px);
-	}
-	.navbar.easy-sidebar {
-		transition: 0.2s ease;
-		position: absolute;
-		width: 250px;
-		top: 0;
-		left: -250px;
-		min-height: 100%;
-		border-radius: 0;
-	}
 }
