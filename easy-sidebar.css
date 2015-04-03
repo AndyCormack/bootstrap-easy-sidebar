@@ -115,7 +115,7 @@ body {
 
 /* Keep page content fully on the screen when sidebar is open for modern browsers when at desktop resolutions. */
 @media (min-width: 768px) {
-	.easy-sidebar-container {
+	.easy-sidebar-container.toggled {
 		width: calc(100% - 250px);
 	}
 }
