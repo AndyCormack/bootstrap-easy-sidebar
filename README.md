@@ -20,6 +20,11 @@ see, especially on mobile.
 Also removed the need for a separate legacy CSS file for older versions
 of IE.
 
+## Demo
+[Check out the demo of it in action](http://groundxaero.github.io/bootstrap-easy-sidebar/)
+
+![Sidebar](http://groundxaero.github.io/bootstrap-easy-sidebar/readme-images/sidebar.jpg)
+
 # Installation
 If you use bower:
 ```
@@ -102,11 +107,6 @@ $('html').on('swipeleft', function(){
 And you should be all set!
 
 Be sure to check out the demo page below for a complete example using the default Bootstrap CSS and inverted navbar style for the sidebar itself to contrast the top navbar and the rest of the page.
-
-## Demo
-[Check out the demo of it in action](http://groundxaero.github.io/bootstrap-easy-sidebar/)
-
-![Sidebar](http://groundxaero.github.io/bootstrap-easy-sidebar/readme-images/sidebar.jpg)
 
 ## IE Support
 
