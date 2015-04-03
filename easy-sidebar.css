@@ -110,3 +110,12 @@ body {
 	display: block;
 	width: 100%;
 }
+
+/*///// Media Queries /////*/
+
+/* Keep page content fully on the screen when sidebar is open for modern browsers when at desktop resolutions. */
+@media (min-width: 768px) {
+	easy-sidebar-container {
+		width: calc(100% - 250px);
+	}
+}
