@@ -31,7 +31,7 @@ body {
 
 .navbar.easy-sidebar {
 	transition: 0.2s ease;
-	position: fixed;
+	position: absolute;
 	width: 250px;
 	top: 0;
 	left: -250px;
